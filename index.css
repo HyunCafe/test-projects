@@ -1,0 +1,39 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Centered text */
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Text style for Recipes */
+a {
+    font-size:22px;
+    font-family: Cosmic Sans MS, Fantasy, Sans-serif;
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+}
+
+.recipe1{
+    float: left;
+}
+
+.recipe2{
+    float: right;
+
+}
+
+.recipe3{
+    text-align:center;
+    line-height:344px;
+}
