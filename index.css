@@ -1,47 +1,56 @@
 /* Container holding the image and the text */
 .container {
     position: relative;
-    text-align: center;
+    text-align: right;
     color: white;
+  
+  }
+
+  .coffee{
+    float:center;
+    width:500px;
+    height:auto;
   }
 
   /* Text style for Recipes */
 a {
-    font-size:22px;
+    font-size:20px;
     font-family: Cosmic Sans MS, Fantasy, Sans-serif;
+    background-color: azure;
 }
 
 #title{
-    text-align: center;
+    text-align: right;
 }
+/* Pics for Column Row */
+
+.coloumn{
+     display:flex;
+     flex-direction:column;
+     justify-content: center;
+     column-gap: 40px;
+     float: left;
+     width: 300px;
+     height: 360px;
+
+}
+
 
 /* Grandma Gingersnap Cookies Section */
 .recipe1{
-    float: left;
+    float:left;
 }
 
-.gingcookiespic{
-    width:370px;
-    height:auto;
-}
 
 /* Choco Peanut Butter Cracker Section */
 .recipe2{
-    float: right;
+    float: left;
 }
 
-.chococookiespic{
-    width: 370px;
-    height:auto;
-}
+
 
 /* Marbled Pumpkin Pie Section */
 .recipe3{
-    text-align:center;
-    line-height:324px;
+    float:left;
 }
 
-.chocopiepic{
-    width: 370px;
-    height:auto;
-}
