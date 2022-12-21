@@ -1,8 +1,10 @@
 /* Container holding the image and the text */
 .container {
-    position: relative;
+    position: absolute;
     text-align: right;
     color: white;
+    top: 300px;
+    right: 500px;
   
   }
 
@@ -20,7 +22,9 @@ a {
 }
 
 #title{
-    text-align: right;
+    position:absolute;
+    top: 220px;
+    right: 650px;
 }
 
 /* Pics for Column Row */
@@ -28,11 +32,14 @@ a {
 .Group{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    position:absolute;
+    top: 300;
+    left: 500;
 }
 
 .Group img{
     width:400px;
+    height:auto;
 }
 
 
