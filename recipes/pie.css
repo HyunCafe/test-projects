@@ -6,11 +6,11 @@ body{
 #rtitle{
     position:absolute;
     text-align: center;
-    left: 630px;
+    left: 590px;
     top:2px;
     font-family: Cosmic Sans MS, Fantasy, Sans-serif;
     word-spacing: 1px;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     background-color: #1e2222;
     color: white;
     padding:10px;

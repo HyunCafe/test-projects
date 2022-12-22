@@ -37,6 +37,7 @@
     padding:10px;
     border:5px solid darkgrey;
     margin: 20px;
+    letter-spacing: 3px;
     width: fit-content;
 }
 
@@ -74,6 +75,7 @@ a {
     border:5px solid darkgrey;
     margin: 20px;
     text-align: center;
+    letter-spacing: 2px;
     margin-top: 0;
 }
 
