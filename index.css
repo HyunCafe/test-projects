@@ -53,6 +53,7 @@ a {
     border:5px solid darkgrey;
     margin: 20px;
     text-align: center;
+    margin-top: 0;
 }
 
 #column{
@@ -62,6 +63,7 @@ a {
     padding:20px;
     border:5px solid darkgrey;
     margin: 20px;
+    margin-bottom:0;
 }
 
 /* Grandma Gingersnap Cookies Section */
