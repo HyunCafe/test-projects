@@ -4,7 +4,10 @@
 
   /* Title */
 #rtitle{
+    position:absolute;
     text-align: center;
+    left: 630px;
+    top:2px;
     font-family: Cosmic Sans MS, Fantasy, Sans-serif;
     word-spacing: 1px;
     letter-spacing: 1px;
@@ -13,6 +16,7 @@
     padding:10px;
     border:5px solid darkgrey;
     margin: 20px;
+    width:fit-content;
 }
 
   /* Main Picture */
@@ -45,15 +49,48 @@
 }
 
   /* Ingredients */
-.Ingredients {
+
+  .Ingredients {
+      position:absolute;
+      left: 50px;
+      bottom: 280px;
+      text-align: left;
+      font-family: Cosmic Sans MS, Fantasy, Sans-serif;
+      font-size:16px;
+      background-color: #1e2222;
+      color: white;
+      padding:10px;
+      border:5px solid darkgrey;
+      margin: 6px;
+      width:fit-content;
+    }
+
+a.Ingredients li{
+  padding: 8px;
+}
+  /* Directions */
+  .Directions ol{
+    position:absolute;
+    bottom: 10px;
+    left: 280px;
+    text-align: left;
     font-family: Cosmic Sans MS, Fantasy, Sans-serif;
     background-color: #1e2222;
     color: white;
-    padding:10px;
+    border:13px solid darkgrey;
+    padding:8px 35px;
     border:5px solid darkgrey;
-    margin: 20px;
+    margin: 18px;
+    font-size:16px;
+    width:fit-content;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
 
-  /* Directions */
+a.Directions li{
+  padding: 6px;
+}
 
-  
+  h2 {
+    text-align: center;
+  }
