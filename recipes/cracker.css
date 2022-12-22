@@ -23,7 +23,7 @@ body{
 .column{
     position:absolute;
     top: 150px;
-    right: 0px;
+    right: 20px;
     background-color: #1e2222;
     color: white;
     padding:10px;
@@ -31,7 +31,7 @@ body{
     margin: 20px;
     margin-bottom:0;
     height:630px;
-    width:650px;
+    width:690px;
 
 
 }
@@ -53,21 +53,21 @@ body{
 
   .Ingredients {
       position:absolute;
-      left: 380px;
+      left: 240px;
       bottom: 380px;
       text-align: left;
       font-family: Cosmic Sans MS, Fantasy, Sans-serif;
-      font-size:16px;
+      font-size:20px;
       background-color: #1e2222;
       color: white;
-      padding:10px;
+      padding:10px 80px;
       border:5px solid darkgrey;
       margin: 6px;
       width:fit-content;
     }
 
 a.Ingredients li{
-  padding: 8px;
+  padding: 8px 20px;
 }
   /* Directions */
   .Directions ol{
