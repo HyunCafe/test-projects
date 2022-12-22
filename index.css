@@ -11,8 +11,8 @@
 
   .coffee{
     float:center;
-    width:500px;
-    height:auto;
+    width:770px;
+    height:330px;
     background-color: #1e2222;
     color: white;
     padding:10px;
@@ -55,7 +55,7 @@ a {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     width: 1840px;
 
 }
@@ -67,8 +67,8 @@ a {
 
 .rtitle {
     font-family: Cosmic Sans MS, Fantasy, Sans-serif;
-    word-spacing: 1px;
     letter-spacing: 1px;
+    font-size: 13px;
     background-color: #1e2222;
     color: white;
     padding:10px;
@@ -76,6 +76,7 @@ a {
     margin: 20px;
     text-align: center;
     letter-spacing: 2px;
+    max-width: 330px;
     margin-top: 0;
 }
 
