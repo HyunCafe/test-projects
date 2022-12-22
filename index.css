@@ -25,7 +25,10 @@
   }
 
 #title{
+    position:absolute;
     text-align: center;
+    left: 715px;
+    top: 4px;
     font-family: Cosmic Sans MS, Fantasy, Sans-serif;
     word-spacing: 1px;
     letter-spacing: 1px;
@@ -34,6 +37,7 @@
     padding:10px;
     border:5px solid darkgrey;
     margin: 20px;
+    width: fit-content;
 }
 
   /* Text style for Recipes */
