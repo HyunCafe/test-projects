@@ -1,0 +1,97 @@
+body{
+    background-color: slategray;
+  }
+
+  /* Title */
+#rtitle{
+    position:absolute;
+    text-align: center;
+    left: 630px;
+    top:2px;
+    font-family: Cosmic Sans MS, Fantasy, Sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    background-color: #1e2222;
+    color: white;
+    padding:10px;
+    border:5px solid darkgrey;
+    margin: 20px;
+    width:fit-content;
+}
+
+  /* Main Picture */
+.column{
+    position:absolute;
+    top: 150px;
+    right: 0px;
+    background-color: #1e2222;
+    color: white;
+    padding:10px;
+    border:5px solid darkgrey;
+    margin: 20px;
+    margin-bottom:0;
+    height:630px;
+    width:650px;
+
+
+}
+  /* Quote */
+.Quote {
+    position:absolute;
+    text-align: center;
+    top: 88px;
+    left: 100px;
+    font-family: Cosmic Sans MS, Fantasy, Sans-serif;
+    background-color: #1e2222;
+    color: white;
+    padding:10px;
+    border:5px solid darkgrey;
+    margin: 6px;
+}
+
+  /* Ingredients */
+
+  .Ingredients {
+      position:absolute;
+      left: 380px;
+      bottom: 380px;
+      text-align: left;
+      font-family: Cosmic Sans MS, Fantasy, Sans-serif;
+      font-size:16px;
+      background-color: #1e2222;
+      color: white;
+      padding:10px;
+      border:5px solid darkgrey;
+      margin: 6px;
+      width:fit-content;
+    }
+
+a.Ingredients li{
+  padding: 8px;
+}
+  /* Directions */
+  .Directions ol{
+    position:absolute;
+    bottom: 90px;
+    left: 30px;
+    text-align: left;
+    font-family: Cosmic Sans MS, Fantasy, Sans-serif;
+    background-color: #1e2222;
+    color: white;
+    border:8px solid darkgrey;
+    padding:8px 35px;
+    border:5px solid darkgrey;
+    margin: 18px;
+    font-size:14px;
+    width:fit-content;
+
+
+}
+
+a.Directions li{
+  padding: 6px;
+}
+
+  h2 {
+    text-align: center;
+  }
