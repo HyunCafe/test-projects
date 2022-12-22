@@ -23,7 +23,7 @@ body{
 .column{
     position:absolute;
     top: 130px;
-    right: 20px;
+    right: 60px;
     background-color: #1e2222;
     color: white;
     padding:10px;
@@ -53,17 +53,18 @@ body{
 
   .Ingredients {
       position:absolute;
-      left: 360px;
-      bottom: 400px;
+      left: 330px;
+      bottom: 420px;
       text-align: left;
       font-family: Cosmic Sans MS, Fantasy, Sans-serif;
-      font-size:18px;
+      font-size:16px;
       background-color: #1e2222;
       color: white;
-      padding:6px 20px;
+      padding:6px 10px;
       border:5px solid darkgrey;
       margin: 6px;
       width:fit-content;
+      letter-spacing: 2px;
     }
 
 a.Ingredients li{
@@ -72,8 +73,8 @@ a.Ingredients li{
   /* Directions */
   .Directions ol{
     position:absolute;
-    bottom: 10px;
-    left: 30px;
+    bottom: 20px;
+    left: 130px;
     text-align: left;
     font-family: Cosmic Sans MS, Fantasy, Sans-serif;
     background-color: #1e2222;
@@ -82,10 +83,9 @@ a.Ingredients li{
     padding:8px 35px;
     border:5px solid darkgrey;
     margin: 18px;
-    font-size:16px;
+    font-size:14px;
     letter-spacing: 1px;
-    word-spacing: 1px;
-    max-width: 1000px;
+    max-width: 800px;
     width:fit-content;
 
 
@@ -97,4 +97,5 @@ a.Directions li{
 
   h2 {
     text-align: center;
+    text-decoration: underline;
   }

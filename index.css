@@ -64,8 +64,8 @@ a {
     width:330px;
     height:300px;
 }
-
-.rtitle {
+                                   /* The 3 titles below the 3 pics */
+.rtitle {                                            
     font-family: Cosmic Sans MS, Fantasy, Sans-serif;
     letter-spacing: 1px;
     font-size: 13px;

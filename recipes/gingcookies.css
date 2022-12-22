@@ -1,3 +1,7 @@
+ html{
+  box-sizing: border-box;
+ }
+ 
  body{
     background-color: slategray;
   }
@@ -53,7 +57,7 @@
   .Ingredients {
       position:absolute;
       left: 50px;
-      bottom: 280px;
+      bottom: 300px;
       text-align: left;
       font-family: Cosmic Sans MS, Fantasy, Sans-serif;
       font-size:16px;
@@ -71,7 +75,7 @@ a.Ingredients li{
   /* Directions */
   .Directions ol{
     position:absolute;
-    bottom: 10px;
+    bottom: 30px;
     left: 280px;
     text-align: left;
     font-family: Cosmic Sans MS, Fantasy, Sans-serif;
@@ -93,4 +97,5 @@ a.Directions li{
 
   h2 {
     text-align: center;
+    text-decoration: underline;
   }
