@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex:1; */
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.headquote {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+.section1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.section2 {
+
+}
+
+.section3 {
+    background-color: #e5e7eb;
+}
+
+.section4 {
+
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
