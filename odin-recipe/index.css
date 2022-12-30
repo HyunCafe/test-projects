@@ -1,0 +1,87 @@
+/* Cafe Pic and Hyuns Cafe Title test1*/
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:80px;
+    width: 1840px;
+  }
+
+  .coffee{
+    float:center;
+    width:770px;
+    height:330px;
+    background-color: #1e2222;
+    color: white;
+    padding:10px;
+    border:5px solid darkgrey;
+    margin: 20px;
+  }
+
+  body{
+    background-color: slategray;
+  }
+
+#title{
+    position:absolute;
+    text-align: center;
+    left: 715px;
+    top: 4px;
+    font-family: Cosmic Sans MS, Fantasy, Sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    background-color: #1e2222;
+    color: white;
+    padding:10px;
+    border:5px solid darkgrey;
+    margin: 20px;
+    letter-spacing: 3px;
+    width: fit-content;
+}
+
+  /* Text style for Recipes */
+a {
+    font-size:16px;
+    font-family: Cosmic Sans MS, Fantasy, Sans-serif;
+    background-color: azure;
+}
+
+/* Section for all 3 images and Flex Row */
+
+.Group{
+    display:flex;
+    justify-content: center;
+    margin: 30em .5em .5em .5em;
+}
+
+.Group img{
+max-width: 23em;
+min-width: 23em;
+min-height: 17.8em;
+max-height: 17.8em;
+ 
+}
+                                   /* The 3 titles below the 3 pics */
+
+    .rtitle{
+      display: flex;     
+      justify-content: center;    
+      background-color: #1e2222;
+      color: white;
+      padding:.3em;
+      border:5px solid darkgrey;
+      border-radius: 4px;
+      margin-top: .04em;
+      margin: .1em;
+    }
+
+    .column{
+      background-color: #1e2222;
+      color: white;
+      padding:10px;
+      border:5px solid darkgrey;
+      margin:.5em
+    }
+
