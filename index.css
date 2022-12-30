@@ -52,61 +52,36 @@ a {
 
 .Group{
     display:flex;
-    align-items: center;
     justify-content: center;
-    position: absolute;
-    bottom: 0px;
-    width: 1840px;
-
+    margin: 30em .5em .5em .5em;
 }
 
 .Group img{
-    width:330px;
-    height:300px;
+max-width: 23em;
+min-width: 23em;
+min-height: 17.8em;
+max-height: 17.8em;
+ 
 }
                                    /* The 3 titles below the 3 pics */
-.rtitle {                                            
-    font-family: Cosmic Sans MS, Fantasy, Sans-serif;
-    letter-spacing: 1px;
-    font-size: 13px;
-    background-color: #1e2222;
-    color: white;
-    padding:10px;
-    border:5px solid darkgrey;
-    margin: 20px;
-    text-align: center;
-    letter-spacing: 2px;
-    max-width: 330px;
-    margin-top: 0;
-}
 
-.column{
-    margin-left:30px;
-    background-color: #1e2222;
-    color: white;
-    padding:10px;
-    border:5px solid darkgrey;
-    margin: 20px;
-    margin-bottom:0;
-}
+    .rtitle{
+      display: flex;     
+      justify-content: center;    
+      background-color: #1e2222;
+      color: white;
+      padding:.3em;
+      border:5px solid darkgrey;
+      border-radius: 4px;
+      margin-top: .04em;
+      margin: .1em;
+    }
 
-
-
-/* Grandma Gingersnap Cookies Section */
-.recipe1{
-    
-}
-
-
-/* Choco Peanut Butter Cracker Section */
-.recipe2{
-   
-}
-
-
-
-/* Marbled Pumpkin Pie Section */
-.recipe3{
-
-}
+    .column{
+      background-color: #1e2222;
+      color: white;
+      padding:10px;
+      border:5px solid darkgrey;
+      margin:.5em
+    }
 
