@@ -3,7 +3,7 @@
 body {
     background-image: url(nightcity1.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     color:aliceblue;
     text-shadow: .1rem .1rem 1rem rgb(0, 0, 0);
