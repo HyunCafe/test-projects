@@ -1,15 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
+    /* background-image: url(nightcity1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: lightseagreen;
+    color: #f9faf8;
     display: flex;
     flex-direction: column;
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.body  {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     /* flex:1; */
     background-color: #1f2937;
-    color: #f9faf8;
+    /* margin: 0;
+    padding: 0;
+    width: 100%; */
 }
 
 .headquote {
@@ -24,24 +48,63 @@ ul {
     gap: 16px
 }
 
+section{
+    /* flex: 1; */
+}
+
 .section1 {
     background-color: #1f2937;
-    color: #f9faf8;
+}
+
+.sec1_mini-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section2 {
-
 }
 
 .section3 {
     background-color: #e5e7eb;
+    color:#1f2937;
 }
 
 .section4 {
-
+    background-color: #3882f6;
+    margin:5em 20em;
+    padding: 1.5em;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
 }
 
-footer {
+.sec4_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    margin-right: 4em;
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: .4em 1em;
+    border-radius: .7em;
+}
+
+
+
+.footer {
     background-color: #1f2937;
     color: #f9faf8;
+    justify-content: center;
+    align-items: center;
 }
+
