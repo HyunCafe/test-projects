@@ -68,19 +68,21 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .all-image {
     display: flex;
     /* flex: 1; */
+    
 }
 
 .imagecontainer {
     display: flex;
     flex-flow: column;
     margin: 1em;
-    max-width: 18em;
-    max-block-size: 12em;
+    /* max-width: 18em;
+    max-block-size: 12em; */
     
 }
 
