@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    /* background-image: url(nightcity1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: lightseagreen;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.body  {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: #1f2937;
+}
+/* HEADER */
+.headquote {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+/* SECTION 1 */
+.section1 {
+    background-color: #1f2937;
+    margin-top: 0;
+}
+
+.sec1_mini-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION 2 */
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-overflow: 0;
+    flex: 1;
+}
+
+.sect2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-image {
+    display: flex;
+    /* flex: 1; */
+}
+
+.imagecontainer {
+    display: flex;
+    flex-flow: column;
+    margin: 1em;
+    max-width: 18em;
+    max-block-size: 12em;
+    
+}
+
+
+/* SECTION 3 */
+.section3 {
+    background-color: #e5e7eb;
+    color:#1f2937;
+}
+
+/* SECTION 4 */
+.section4 {
+    background-color: #3882f6;
+    margin:5em 20em;
+    padding: 1.5em;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.sec4_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    margin-right: 4em;
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: .4em 1em;
+    border-radius: .7em;
+}
+
+
+/* FOOTER */
+.footer {
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+
