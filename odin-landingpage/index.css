@@ -5,7 +5,6 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: lightseagreen;
     color:aliceblue;
     text-shadow: .1rem .1rem 1rem rgb(0, 0, 0);
     -webkit-background-clip: text;
